@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'euphoria';
+    src: url(Prisma.otf);
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+div { margin-top: 20%;
+    
+    
+    
+}
+img {
+    
+    position: relative;
+    left: 30%;
+    
+    float: left;
+    max-width: 100%;
+    width:150px ;
+    height: 150px;
+    bottom: 70px; }
+    img:hover {
+    
+        transition: all 0.6s ease;
+        box-shadow: 0px 1px 13px #381b80
+}
+
+p {  font-size: 2.1em;
+    letter-spacing:7px;
+    font-family: 'euphoria', Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top: 380px;
+    background-image: url(abyss-black-hole.gif);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 600px) {
+img {
+   width: 100px;
+   height: 100px;
+   margin-top: 195px;
+   
+   
+   
+}
+div {
+    margin-right: 100px;
+    margin-left: -70px;
+    
+}
